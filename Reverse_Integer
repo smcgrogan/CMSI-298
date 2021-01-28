@@ -1,0 +1,18 @@
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(x) {
+    if (x < 0){
+        let neg = True
+    }
+    x.toString()
+    x.split()
+    x.reverse()
+    x.join('')
+    parseInt(x)
+    if(neg == True){
+        x = x * -1
+    }
+    return(x)
+};

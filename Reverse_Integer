@@ -3,16 +3,17 @@
  * @return {number}
  */
 var reverse = function(x) {
+    let neg = false;
     if (x < 0){
-        let neg = True
+        neg = true
+        x = x * -1;
     }
-    x.toString()
-    x.split()
-    x.reverse()
-    x.join('')
-    parseInt(x)
-    if(neg == True){
-        x = x * -1
+    let z = x.toString();
+    let y = z.split('').reverse().join('');
+    
+    parseInt(y)
+    if(neg === true){
+        y = y * -1
     }
-    return(x)
+    return(y)
 };

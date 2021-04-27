@@ -3,6 +3,7 @@
  * @param {string} t
  * @return {boolean}
  */
+
 var isAnagram = function(s, t) {
     let checker = s.length
     let anag = false;
